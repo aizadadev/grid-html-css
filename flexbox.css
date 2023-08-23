@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+.practice0 {
+    display: flex;
+    justify-content: space-between;
+}
+.practice0 .one {
+    background-color: green;
+    flex-grow: 1;
+}
+.practice0 .two {
+    background-color: yellow;
+    flex-grow: 3;
+}
+.practice0 .three {
+    background-color: red;
+    flex-grow: 1;
+}
+
+.practice1 {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    background-color:dodgerblue;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+}
+.right {
+    background-color: red;
+    color: white;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+}
+.practice2 {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+h3 {
+    margin-top: 0px;
+}
+.practice3 {
+    display: flex;
+}
+.practice3 ul {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.practice3 ul li {
+    background-color: dodgerblue;
+    color: white;
+    margin-bottom: 5px;
+    width: 200px;
+    padding: 5px;
+    list-style: none;
+}
+.practice4 {
+    display: flex;
+}
+.practice4 ul {
+    width: 20%;
+    padding: 0;
+}
+.practice4 .text {
+    width: 100%;
+}
+.practice4 ul li {
+    background-color: dodgerblue;
+    color: white;
+    list-style: none;
+}
+.blue {
+    width: 20%;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+}
+
+
+
